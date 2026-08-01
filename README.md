@@ -25,6 +25,20 @@ A simple plugin that highlights whole lines in linewise visual mode (`V`)
 }
 ```
 </details>
+<details open>
+<summary>AstroNvim</summary>
+
+> [astronvim/astronvim](https://github.com/astronvim/astronvim)
+```lua
+return {
+    {
+        "0xAdk/full_visual_line.nvim",
+        event = "VeryLazy",
+        opts = {},
+    },
+}
+```
+</details>
 
 <details>
 <summary>packer.nvim</summary>
